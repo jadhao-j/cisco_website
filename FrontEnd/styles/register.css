@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #4a90e2, #356b74);
+  min-height: 100vh;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 15px;
+  width: 500px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  margin-top: 10rem;
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.register-box h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.register-box p {
+  font-size: 14px;
+  opacity: 0.85;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-size: 12px;
+  margin: 8px 0 4px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin-bottom: 12px;
+}
+
+.input-group i {
+  margin-right: 8px;
+  color: #dfe6e9;
+}
+
+.input-group input,
+.input-group select {
+  background: none;
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  color: white;
+}
+
+.input-group select option {
+  color: black; /* Dropdown options */
+}
+
+.input-group input::placeholder {
+  color: rgba(255,255,255,0.7);
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: white;
+  color: #356b74;
+}
+
+.login-link {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.login-link a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+small {
+  display: block;
+  font-size: 11px;
+  opacity: 0.8;
+  margin-top: 8px;
+}

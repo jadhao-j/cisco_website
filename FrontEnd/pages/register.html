@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Form</title>
+  <link rel="stylesheet" href="../styles/register.css">
+  <link rel="Icon" href="../assets/cisco_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../globals.css">
+  <!-- Icons (Font Awesome) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="../assets/cisco_logo.png" alt="Cisco Logo" height="40" width="40"></a>
+
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <button class="dark-btn"><a href="login.html">Login</a></button>
+        </ul>
+
+    </div>
+
+<div class="register-container">
+  <div class="register-box">
+    <div class="icon">
+      <i class="fa-solid fa-network-wired"></i>
+    </div>
+    <h2>Join Our Academy</h2>
+    <p>Want to join the Cisco Networking Academy @ Campus? Register below to get access to workshops, events, hackathons, and certifications.</p>
+
+    <form>
+      <label>Full Name *</label>
+      <div class="input-group">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" placeholder="Enter your full name" required>
+      </div>
+
+      <label>College Email ID *</label>
+      <div class="input-group">
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" placeholder="your.name@college.edu" required>
+      </div>
+
+      <label>Course/Branch *</label>
+      <div class="input-group">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <select required>
+          <option value="">Select your course</option>
+          <option>B.Tech CSE</option>
+          <option>B.Tech ECE</option>
+          <option>B.Sc IT</option>
+          <option>MCA</option>
+        </select>
+      </div>
+
+      <label>Year *</label>
+      <div class="input-group">
+        <i class="fa-solid fa-calendar-days"></i>
+        <select required>
+          <option value="">Select your year</option>
+          <option>1st Year</option>
+          <option>2nd Year</option>
+          <option>3rd Year</option>
+          <option>4th Year</option>
+        </select>
+      </div>
+
+      <label>Password *</label>
+      <div class="input-group">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" placeholder="Create a strong password" required>
+        <i class="fa-solid fa-eye"></i>
+      </div>
+
+      <button type="submit" class="btn">Create Account</button>
+
+      <p class="login-link">Already have an account? <a href="login.html">Login here</a></p>
+      <small>By creating an account, you agree to participate in our learning community and follow academy guidelines.</small>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+
+
+.main {
+    
+    text-align: center;
+    backdrop-filter: blur(9px);
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero {
+    color: white;
+    display: flex;
+    position: relative;
+    top: 15rem;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 100vh; */
+    gap: 1rem;
+}
+
+.image{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: blur(9px);
+}
